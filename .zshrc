@@ -13,7 +13,4 @@ if [ ! -d $PLUGINS_DIR ]; then
     mkdir "$PLUGINS_DIR"
 fi
 
-# Starts starship
-eval "$(starship init zsh)"
-
 alias coucou="echo Coucou"
